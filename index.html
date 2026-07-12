@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Manisha Katamoni — Senior DevOps Engineer, Cloud Infrastructure Engineer, SRE, and AI/ML graduate student." />
+  <meta name="keywords" content="Manisha Katamoni, AI, Machine Learning, DevOps, Cloud, Portfolio, GitHub Pages" />
+  <meta name="author" content="Manisha Katamoni" />
+  <meta property="og:title" content="Manisha Katamoni | AI & ML Portfolio" />
+  <meta property="og:description" content="A professional portfolio showcasing AI, ML, DevOps, cloud, and automation projects." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0b1020" />
+  <title>Manisha Katamoni | Senior DevOps Engineer & SRE</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="neuralCanvas" aria-hidden="true"></canvas>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Go to home">
+      <span class="brand-mark">MK</span>
+      <span>Manisha Katamoni</span>
+    </a>
+
+    <button class="menu-button" id="menuButton" aria-label="Open navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav id="siteNav" aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#value">Value</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#artifacts">AI/ML Artifacts</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button class="theme-button" id="themeButton" aria-label="Toggle color theme">◐</button>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Senior DevOps Engineer • Cloud Infrastructure • SRE</p>
+        <h1>I engineer reliable cloud platforms that release faster, recover smarter, and scale with confidence.</h1>
+        <p class="hero-text">Results-driven DevOps and SRE professional with multi-cloud experience across AWS, Azure, and GCP. I build secure CI/CD pipelines, Kubernetes platforms, Infrastructure as Code, observability, GitOps workflows, and automation that improve delivery speed, uptime, resilience, and cost efficiency.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">View Engineering Projects</a>
+          <a class="button secondary" href="assets/Manisha_Katamoni_Resume.docx" download>Download Resume</a>
+        </div>
+        <div class="quick-stats" aria-label="Professional highlights">
+          <div><strong>45%</strong><span>Faster Releases</span></div>
+          <div><strong>60%</strong><span>Fewer Failed Deployments</span></div>
+          <div><strong>99.99%</strong><span>Platform Uptime</span></div>
+          <div><strong>30%</strong><span>Cloud Cost Savings</span></div>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="orbit-card">
+          <div class="core">SRE</div>
+          <span class="orbit orbit-one"><i>AWS</i></span>
+          <span class="orbit orbit-two"><i>Azure</i></span>
+          <span class="orbit orbit-three"><i>K8s</i></span>
+          <div class="signal-card"><span>Professional focus</span><strong>Reliable Multi-Cloud Platforms</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section two-column" id="about">
+      <div class="section-heading reveal"><p class="eyebrow">Professional Bio</p><h2>Engineering discipline with a business-impact mindset.</h2></div>
+      <div class="content-card reveal">
+        <p>I am a Senior DevOps and Site Reliability Engineer with experience designing and operating cloud-native infrastructure across AWS, Azure, and GCP. My work centers on reusable Infrastructure as Code, secure CI/CD pipelines, Kubernetes orchestration, GitOps, observability, disaster recovery, and self-healing automation.</p>
+        <p>I have delivered measurable outcomes including 45% faster releases, 60% fewer failed deployments, 99.99% uptime, 30% cloud cost savings, and significantly faster incident detection and recovery.</p>
+        <p>I am also pursuing a Master of Science in Computer Information Systems with an AI specialization at Indiana Wesleyan University. My long-term direction is to combine SRE, cloud engineering, and AI/ML infrastructure to build intelligent, resilient, and scalable platforms.</p>
+      </div>
+    </section>
+
+    <section class="section value-section" id="value">
+      <div class="section-heading centered reveal">
+        <p class="eyebrow">Personal Value Proposition</p>
+        <h2>What I bring to teams and organizations</h2>
+      </div>
+
+      <div class="value-grid">
+        <article class="value-card reveal">
+          <span class="card-number">01</span>
+          <h3>Multi-Cloud Engineering</h3>
+          <p>I design and automate reliable infrastructure across AWS, Azure, and GCP using Kubernetes, Terraform, GitOps, and secure delivery practices.</p>
+        </article>
+
+        <article class="value-card reveal">
+          <span class="card-number">02</span>
+          <h3>Reliability & Automation</h3>
+          <p>I reduce operational risk through observability, self-healing automation, canary delivery, disaster recovery, and measurable SRE practices.</p>
+        </article>
+
+        <article class="value-card reveal">
+          <span class="card-number">03</span>
+          <h3>Security & Business Value</h3>
+          <p>I connect engineering decisions to business outcomes such as faster releases, lower cloud costs, stronger compliance, and improved uptime.</p>
+        </article>
+      </div>
+
+      <blockquote class="statement reveal">“I help organizations deliver secure, resilient, and cost-efficient cloud platforms by combining DevOps automation, SRE practices, Kubernetes, Infrastructure as Code, observability, and emerging AI capabilities. I translate complex infrastructure challenges into measurable improvements in delivery speed, reliability, security, and operational efficiency.”</blockquote>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading reveal"><p class="eyebrow">Core Competencies</p><h2>Multi-cloud, automation, reliability, and platform engineering</h2></div>
+      <div class="skills-layout">
+        <div class="skill-group reveal"><h3>Cloud Platforms</h3><div class="tag-list"><span>AWS</span><span>Azure</span><span>GCP</span><span>EC2</span><span>EKS</span><span>AKS</span><span>GKE</span><span>Lambda</span><span>BigQuery</span></div></div>
+        <div class="skill-group reveal"><h3>Infrastructure as Code & Automation</h3><div class="tag-list"><span>Terraform</span><span>Ansible</span><span>Helm</span><span>CloudFormation</span><span>ARM Templates</span><span>AWS CDK</span><span>Packer</span></div></div>
+        <div class="skill-group reveal"><h3>CI/CD & GitOps</h3><div class="tag-list"><span>Jenkins</span><span>GitHub Actions</span><span>GitLab CI/CD</span><span>Azure DevOps</span><span>ArgoCD</span><span>FluxCD</span><span>Harness</span></div></div>
+        <div class="skill-group reveal"><h3>Containers, SRE & Observability</h3><div class="tag-list"><span>Docker</span><span>Kubernetes</span><span>Istio</span><span>Prometheus</span><span>Grafana</span><span>Datadog</span><span>ELK</span><span>PagerDuty</span><span>Chaos Mesh</span></div></div>
+        <div class="skill-group reveal"><h3>Programming, Security & Data</h3><div class="tag-list"><span>Python</span><span>Bash</span><span>PowerShell</span><span>Go</span><span>HashiCorp Vault</span><span>Azure Key Vault</span><span>IAM</span><span>PostgreSQL</span><span>MongoDB</span></div></div>
+      </div>
+    </section>
+
+
+    <section class="section" id="experience">
+      <div class="section-heading reveal"><p class="eyebrow">Professional Experience</p><h2>Cloud automation, platform reliability, and measurable operational impact</h2></div>
+      <div class="artifact-grid">
+        <article class="artifact-card featured reveal"><div class="artifact-badge">Jan 2024 – Apr 2026</div><h3>DevOps Engineer — Biztegy Analytics Inc</h3><p>Built reusable Terraform modules and Ansible playbooks, deployed AKS workloads with Docker and Helm, accelerated release velocity through GitHub Actions and Jenkins, reduced AWS costs, strengthened observability, and integrated Azure Key Vault and HashiCorp Vault.</p><div class="tag-list"><span>40% faster provisioning</span><span>45% faster releases</span><span>30% lower cloud cost</span><span>99.99% uptime</span></div></article>
+        <article class="artifact-card reveal"><div class="artifact-badge">Jan 2023 – Jan 2024</div><h3>Site Reliability Engineer — MAXSOFT</h3><p>Defined SLIs and SLOs, automated Kubernetes recovery with Python and Ansible, introduced canary delivery and ArgoCD, optimized EKS autoscaling, and designed disaster recovery with a two-hour RTO and 30-minute RPO.</p></article>
+        <article class="artifact-card reveal"><div class="artifact-badge">Oct 2020 – Dec 2021</div><h3>AWS DevOps Engineer Intern — RSM Technologies</h3><p>Automated AWS deployments with Jenkins and GitHub Actions, improved IAM and VPC security, introduced Terraform and CloudFormation, deployed Docker workloads to ECS Fargate, and created CloudWatch and SNS monitoring.</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading reveal"><p class="eyebrow">Featured Projects</p><h2>Production-minded engineering across cloud, Kubernetes, delivery, and security</h2></div>
+      <div class="artifact-grid">
+        <article class="artifact-card featured reveal"><div class="artifact-badge">Featured Project</div><h3>Cloud-Native CI/CD Pipeline on AWS</h3><p>Architected an end-to-end platform using Jenkins, GitHub Actions, AWS CodePipeline, EKS, Terraform, CloudFormation, CloudWatch, SNS, and Datadog. The solution reduced release time by 45% and MTTR by 30%.</p><div class="tag-list"><span>Jenkins</span><span>GitHub Actions</span><span>EKS</span><span>Terraform</span><span>Datadog</span></div></article>
+        <article class="artifact-card reveal"><div class="artifact-badge">Multi-Cloud Kubernetes</div><h3>AWS EKS + Azure AKS Platform</h3><p>Deployed microservices across EKS and AKS with Helm autoscaling, Istio service mesh, and a unified Prometheus, Grafana, and ELK observability layer, reducing infrastructure cost by 20%.</p></article>
+        <article class="artifact-card reveal"><div class="artifact-badge">High Availability & Security</div><h3>Azure HA and Secrets Management Platform</h3><p>Automated multi-region Azure infrastructure using Terraform and ARM templates, integrated Azure Key Vault and HashiCorp Vault, and achieved 99.99% uptime through Traffic Manager failover routing.</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="artifacts">
+      <div class="section-heading reveal">
+        <p class="eyebrow">AI/ML Professional Portfolio</p>
+        <h2>Extending cloud and DevOps expertise into intelligent systems</h2>
+        <p class="section-intro">
+          Each artifact explains what I created, why I created it, how I completed it, and the value
+          it provides to instructors, recruiters, technical teams, and other learners.
+        </p>
+      </div>
+
+      <div class="artifact-grid">
+        <article class="artifact-card featured reveal">
+          <div class="artifact-badge">Artifact 01 • Featured</div>
+          <div class="artifact-icon">◎</div>
+          <h3>Manisha AI Assistant</h3>
+          <p class="artifact-summary">
+            A browser-based conversational assistant showing how I combine software delivery, user-focused design, testing, documentation, and emerging AI concepts.
+          </p>
+
+          <div class="artifact-details">
+            <details open>
+              <summary>Introduction & Description</summary>
+              <p>
+                This project demonstrates my ability to plan and develop a simple AI-inspired
+                assistant experience. It gives users a clear, approachable way to interact with a
+                chatbot-style interface while showing how conversational systems can be designed
+                around audience needs.
+              </p>
+            </details>
+
+            <details>
+              <summary>Objective</summary>
+              <p>
+                To understand the fundamentals of AI assistants and create an accessible application
+                that demonstrates conversation flow, user interaction, testing, and practical software delivery.
+              </p>
+            </details>
+
+            <details>
+              <summary>Process</summary>
+              <ol>
+                <li>Defined the assistant's purpose, audience, rules, and success criteria.</li>
+                <li>Designed a simple conversation flow and user interface.</li>
+                <li>Developed the project using browser-based technologies.</li>
+                <li>Created test scenarios for expected and unexpected user inputs.</li>
+                <li>Published the project so an instructor or recruiter could access it.</li>
+              </ol>
+            </details>
+
+            <details>
+              <summary>Tools and Technologies</summary>
+              <p>HTML, CSS, JavaScript, Git, GitHub, GitHub Pages, and generative AI for planning and testing.</p>
+            </details>
+
+            <details>
+              <summary>Value Proposition</summary>
+              <p>
+                This artifact demonstrates that I can translate AI concepts into a practical and
+                understandable user experience while applying software development, documentation,
+                testing, and deployment skills.
+              </p>
+            </details>
+
+            <details>
+              <summary>Unique Value</summary>
+              <p>
+                The project connects my existing engineering background with my developing AI skills.
+                It shows not only that I can build a working application, but also that I can explain
+                its purpose and make it accessible to a broad audience.
+              </p>
+            </details>
+
+            <details>
+              <summary>Relevance</summary>
+              <p>
+                This artifact is relevant to instructors, hiring managers, and technical teams because
+                it provides visible evidence of problem-solving, communication, web development,
+                project organization, and AI-focused learning.
+              </p>
+            </details>
+
+            <details>
+              <summary>References</summary>
+              <p>GitHub documentation, course learning materials, and project testing notes.</p>
+            </details>
+          </div>
+
+          <div class="artifact-actions">
+            <a class="button primary" href="https://m25022000.github.io/manisha-AI-Assistent/" target="_blank" rel="noreferrer">Open AI Assistant</a>
+            <a class="button secondary" href="https://github.com/m25022000/manisha-AI-Assistent" target="_blank" rel="noreferrer">View Source Code</a>
+          </div>
+        </article>
+
+        <article class="artifact-card reveal">
+          <div class="artifact-badge">Artifact 02 • Coming Soon</div>
+          <h3>AI & ML Timeline</h3>
+          <p>A visual explanation of major AI and machine learning milestones and their influence on modern technology.</p>
+        </article>
+
+        <article class="artifact-card reveal">
+          <div class="artifact-badge">Artifact 03 • Coming Soon</div>
+          <h3>AI Lab Experience</h3>
+          <p>A first-person case study describing experimentation, key steps, challenges, and lessons learned in an AI lab.</p>
+        </article>
+
+        <article class="artifact-card reveal">
+          <div class="artifact-badge">Artifact 04 • Coming Soon</div>
+          <h3>Leadership Self-Assessment</h3>
+          <p>A professional growth artifact focused on AI/ML leadership, change management, strengths, and development goals.</p>
+        </article>
+
+        <article class="artifact-card reveal">
+          <div class="artifact-badge">Artifact 05 • Coming Soon</div>
+          <h3>Applied AI Project</h3>
+          <p>A future project demonstrating the use of AI or machine learning to address a practical business problem.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section journey">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Learning Journey</p>
+        <h2>How I approach professional growth</h2>
+      </div>
+
+      <div class="journey-track">
+        <div class="journey-step reveal"><span>1</span><h3>Explore</h3><p>Learn new concepts and examine how they are used.</p></div>
+        <div class="journey-step reveal"><span>2</span><h3>Apply</h3><p>Turn knowledge into a project, experiment, or artifact.</p></div>
+        <div class="journey-step reveal"><span>3</span><h3>Reflect</h3><p>Identify lessons, challenges, feedback, and improvements.</p></div>
+        <div class="journey-step reveal"><span>4</span><h3>Share</h3><p>Communicate the work clearly for a specific audience.</p></div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-card reveal">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s build reliable platforms and intelligent cloud solutions.</h2>
+          <p>
+            Based in Chicago, Illinois and open to DevOps, SRE, cloud platform, and AI infrastructure opportunities.
+          </p>
+        </div>
+
+        <div class="contact-links">
+          <a href="mailto:katamonimanisha410@gmail.com">katamonimanisha410@gmail.com</a>
+          <a href="https://github.com/m25022000" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Designed and built by Manisha Katamoni.</p>
+    <p>© <span id="currentYear"></span> • Senior DevOps Engineer • SRE • AI/ML Portfolio</p>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite">
+    Replace this placeholder link with your real project URL.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
